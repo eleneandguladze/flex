@@ -48,5 +48,20 @@ header nav li a {
     font-weight: 400;
     color: #534D4D;
     font-size: 22px;
+}
+
+.home-text-container .text-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.home-text-container button {
+    width: 263px;
+    height: 76px;
+    background-color: #3D37F1;
+    border-radius: 38px;
 
 }
