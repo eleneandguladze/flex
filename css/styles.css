@@ -120,6 +120,7 @@ header nav li a {
     width: 695px;
     text-align: center;
     line-height: 21px;
+    margin-bottom: 67px;
 }
 
 .service-cards {
@@ -128,6 +129,13 @@ header nav li a {
     align-items: center;
     flex-direction: column;
     gap: 60px;
+}
+
+.service-cards-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 29px;
 }
 
 .service-cards .card {
@@ -185,4 +193,24 @@ header nav li a {
     transition: all .3s ease-in-out;
     &:hover  {background-color: #FFFFFF;
     color: #4b647e;}
+}
+
+.card-2 {
+    background-image: linear-gradient(#41EAE3, #2293B7) !important;
+}
+
+.card-3 {
+    background-image: linear-gradient(#69529F, #463864) !important;
+}
+
+.card-4 {
+    background-image: linear-gradient(#4386D2, #0962C5) !important;
+}
+
+.card-5 {
+    background-image: linear-gradient(#A5A2F6, #564FD6) !important;
+}
+
+.card-6 {
+    background-image: linear-gradient(#FF8088, #984141) !important;
 }
