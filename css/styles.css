@@ -28,7 +28,7 @@ header nav li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .home-text-container {
@@ -79,4 +79,110 @@ header nav li a {
     font-weight: 400;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+#services {
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 78px 375px 163px;
+}
+
+.section-heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-heading span {
+    font-family: 'lato' sans-serif;
+    font-weight: 700;
+    color: #3D37F1;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.section-heading h2 {
+    font-family: 'lato' sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #5A5454;
+    text-transform: capitalize;
+}
+
+.section-heading p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5A5454;
+    width: 695px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.service-cards .card {
+    width: 370px;
+    height: 450px;
+    padding: 88px 35px 47px;
+    background-image: linear-gradient(#FBBA77, #DFA871);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 57px;
+}
+
+.card .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .card-text h5 {
+    font-family: 'lato' sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card .card-text p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 300px;
+    margin-top: 13px;
+    margin-bottom: 37px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.card .card-text a {
+    width: 135px;
+    padding: 14px 29px;
+    background-color: transparent;
+    border-radius: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    transition: all .3s ease-in-out;
+    &:hover  {background-color: #FFFFFF;
+    color: #4b647e;}
 }
